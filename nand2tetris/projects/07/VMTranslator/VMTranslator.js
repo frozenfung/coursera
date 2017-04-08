@@ -62,6 +62,9 @@ function translate() {
       case "push":
         translator.push(vmCommand);
         break;
+      case "pop":
+        translator.pop(vmCommand);
+        break;
       case "add":
         translator.add(vmCommand);
         break;
